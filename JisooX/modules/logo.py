@@ -13,7 +13,7 @@ async def lego(event):
  try:
     memek = await event.reply('Creating your logo...wait!')
     text = event.pattern_match.group(1)
-    img = Image.open('./JisooX/resources/951b8baf6839dccee3bbd7ab16b23813.jpg')
+    img = Image.open('./JisooX/resources/46178c5739062b4c98c1b.jpg')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
@@ -30,12 +30,12 @@ async def lego(event):
     fname2 = "Jisoo.png"
     img.save(fname2, "png")
     await memek.edit("`Uploading`")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @JisooXRobot")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By @black_snipers")
     if os.path.exists(fname2):
             os.remove(fname2)
             await memek.delete()
  except Exception as e:
-   await event.reply(f'Error Report @AnosSupport, {e}')
+   await event.reply(f'Error Report @Tutorial_userbot, {e}')
 
 
 file_help = os.path.basename(__file__)
