@@ -30,7 +30,7 @@ async def lego(event):
     fname2 = "Jisoo.png"
     img.save(fname2, "png")
     await memek.edit("`Uploading`")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @black_snipers")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By @assistant_anime_bot")
     if os.path.exists(fname2):
             os.remove(fname2)
             await memek.delete()
