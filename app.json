@@ -81,16 +81,16 @@
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
-         "value": "1669508271"
+         "value": "901878554"
       },
       "OWNER_NAME": {
          "description": "Your Name",
-         "value": "Feri"
+         "value": "black_snipers"
       },
       "DEV_USERS": {
          "description": "ID of users who are Dev (can use /py etc.)",
          "required": false,
-         "value": "1669508271 1841175154"
+         "value": "901878554"
       },
       "CASH_API_KEY": {
          "description": "Required for currency converter",
@@ -107,7 +107,7 @@
       },
        "START_IMG": {
          "description": "Image shows when hit /start",
-         "value": "https://telegra.ph/file/c4c66449d0dfcf5f24b50.jpg"    
+         "value": "https://telegra.ph/file/06706c06e891aec664787.jpg"    
       },
       "API_OPENWEATHER": {
          "description": "Required for weather information",
@@ -130,12 +130,12 @@
       "SUDO_USERS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "1669508271 1841175154"
+         "value": "901878554"
       },
       "SUPPORT_USERS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "1669508271 1841175154"
+         "value": "901878554"
       },
      
       "TOKEN": {
@@ -156,7 +156,7 @@
       "WHITELIST_USERS": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "1669508271 1841175154"
+         "value": "901878554"
       },
       "WALL_API":{
          "description": "Enter wall api",
@@ -174,7 +174,7 @@
       "weeb",
       "group",
       "manager",
-      "jisoox"
+      "ghoundz"
       
    ],
    "buildpacks": [
@@ -185,8 +185,8 @@
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     }
   ],
-   "name": "JisooX",
-   "repository": "https://github.com/ferikunn/JisooX",
-   "success_url": "https://telegram.dog/JisoXRobot",
-   "logo": "https://telegra.ph/file/c4c66449d0dfcf5f24b50.jpg"
+   "name": "ghoundz-robot",
+   "repository": "https://github.com/Randi356/ghoundz-robot",
+   "success_url": "https://telegram.dog/black_snipers",
+   "logo": "https://telegra.ph/file/06706c06e891aec664787.jpg"
 }
