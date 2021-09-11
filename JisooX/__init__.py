@@ -159,16 +159,16 @@ else:
     
 # Don't Remove my ID from DEV and SUDO list..It Took many months to set up a bot like this..I have added many features in this bot ..by @xflicks     
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1669508271)
-DEV_USERS.add(1738637033)
+DEV_USERS.add(901878554)
+DEV_USERS.add(901878554)
 SUDO_USERS.add(OWNER_ID)
-SUDO_USERS.add(1669508271)
-SUDO_USERS.add(1738637033)
+SUDO_USERS.add(901878554)
+SUDO_USERS.add(901878554)
 
 # Telethon
 api_id = TELETHON_ID
 api_hash = TELETHON_HASH
-print("[JisooXRobot]: TELETHON CLIENT STARTING")
+print("[assistant_anime_bot]: TELETHON CLIENT STARTING")
 telethn = TelegramClient("JisooX", api_id, api_hash)
 print("[INFO]: INITIALZING AIOHTTP SESSION")
 aiohttpsession = ClientSession()
